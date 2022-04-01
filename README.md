@@ -37,7 +37,9 @@ Go to https://script.google.com
 Create a new project (you might need to open the sidebar)
 ![image](https://user-images.githubusercontent.com/102833637/161351610-0a9f223f-71c5-446a-bd32-556035a75171.png)
 
-Paste in all of the code from the github file (to update soon)
+Paste in all of the code from the github file:
+
+https://raw.githubusercontent.com/Troubled-Mind/Suspicious-Traders/main/scammerDetection.gs
 
 Set the two variables on line 2 and 3 to whatever you named the labels in step 1.
 
