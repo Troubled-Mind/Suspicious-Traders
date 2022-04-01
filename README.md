@@ -16,8 +16,8 @@ To do this, find this button in your Gmail sidebar, and create the two labels, w
 
 ## Step 2 - Apply the label to all inbound emails
 Don't worry - it'll be auto-removed by the script :) 
-In your Gmail, search for this below:
-`label:unread -in:chats `
+In your Gmail, search for this:
+`label:unread -in:chats `    
 Then click this icon 
 ![image](https://user-images.githubusercontent.com/102833637/161351398-e9d2a428-4277-40dd-a0dd-004350a6b5e8.png)
 
