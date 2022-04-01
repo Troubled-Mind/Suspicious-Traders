@@ -34,6 +34,9 @@ Once this is done, Gmail is ready. Now to Google scripts!
 
 ## Step 3 - Google Scripts
 Go to https://script.google.com
+
+**Make sure you're logged in using your trading email. if not at the top right click your picture and change to your trading email**
+
 Create a new project (you might need to open the sidebar)
 ![image](https://user-images.githubusercontent.com/102833637/161351610-0a9f223f-71c5-446a-bd32-556035a75171.png)
 
