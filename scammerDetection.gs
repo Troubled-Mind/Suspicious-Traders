@@ -2,6 +2,8 @@
 var labelForInboundEmails = 'New Label Scammers'
 var labelForScammers = 'Bad Reputation Trader'
 
+// Scammer Detection by TroubledMind
+// Automatically label emails from known scammers
 
 // --------------- DO NOT EDIT BELOW THIS LINE --------------- 
 var scammerArray
