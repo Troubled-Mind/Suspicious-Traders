@@ -2,21 +2,22 @@
 var labelForInboundEmails = 'New Label Scammers'
 var labelForScammers = 'Bad Reputation Trader'
 
-// Scammer Detection by TroubledMind
-// Automatically label emails from known scammers
 
 // --------------- DO NOT EDIT BELOW THIS LINE --------------- 
 var scammerArray
 
 function scammerDetection() {
-  // Run the "fetchScammers()" function to get the details from Github
-  fetchScammers()
 
   // This checks your email client for new inbound emails with the label
   const inboundThreads = GmailApp.search('label:"'+labelForInboundEmails+'"')
   // Get the label for known scammers
   var scammerLabel = GmailApp.getUserLabelByName(labelForScammers)
-
+  // If there's at least 1 new Inbound email, get scammer details from Github
+  // This should prevent it hitting GitHub API limit hopefully :)
+  if(inboundThreads.length > 0) { 
+    // Run the "fetchScammers()" function to get the details from Github
+    fetchScammers()
+  }
   // For each "thread" of messages which have that label on
   for (const thread of inboundThreads) {
     // Get all messages in that thread
@@ -37,11 +38,11 @@ function scammerDetection() {
           thread.addLabel(scammerLabel)
           Logger.log("Scammer detected: " + sender + "- Adding scam label!")
         }
-        // Remove the label whether scammer or not
-        var inboundLabel = GmailApp.getUserLabelByName(labelForInboundEmails)
-        thread.removeLabel(inboundLabel)
       }
     }
+    // Remove the label whether scammer or not
+    var inboundLabel = GmailApp.getUserLabelByName(labelForInboundEmails)
+    thread.removeLabel(inboundLabel)
   }
 }
 
