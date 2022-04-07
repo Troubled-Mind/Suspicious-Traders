@@ -19,6 +19,7 @@ function scammerDetection() {
   if(inboundThreads.length > 0) { 
     // Run the "fetchScammers()" function to get the details from Github
     fetchScammers()
+    Logger.log(scammerArray)
   }
   // For each "thread" of messages which have that label on
   for (const thread of inboundThreads) {
@@ -35,8 +36,9 @@ function scammerDetection() {
           message.getFrom().indexOf("<")+1,
           message.getFrom().lastIndexOf(">")
         )
+        
         // If sender email exists in known scammer list, add the label
-        if(scammerArray.includes(sender)) {
+        if(scammerArray.includes(sender) && sender !== "") {
           thread.addLabel(scammerLabel)
           Logger.log("Scammer detected: " + sender + "- Adding scam label!")
         }
