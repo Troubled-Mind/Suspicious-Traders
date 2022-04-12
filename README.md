@@ -3,6 +3,7 @@
 ## Purpose: 
 Automatically label (and optionally response to) known scammers when they email you.
 
+See the [Wiki](https://github.com/Troubled-Mind/Suspicious-Traders/wiki) for the reasons each email is on the list    
 
 ## Setup Guide
 
