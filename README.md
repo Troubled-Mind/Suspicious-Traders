@@ -23,7 +23,7 @@ Then click this icon
 ![image](https://user-images.githubusercontent.com/102833637/161351398-e9d2a428-4277-40dd-a0dd-004350a6b5e8.png)
 
 Ignore the rest of the settings and "Create Filter"    
-![image](https://user-images.githubusercontent.com/102833637/161351423-eec38130-12a2-4540-b86e-3bbb6ed912b8.png)
+![image](https://user-images.githubusercontent.com/102833637/161351423-eec38130-12a2-4540-b86e-3bbb6ed912b8.png)      
 And click OK on the confirmation.
 
 On the next screen, you want to apply your new label.
@@ -55,7 +55,7 @@ There's just one more step now - AUTOMATION!
 
 ## Step 4 - Automation!
 In Google Scripts, go to "Triggers" on the left    
-![image](https://user-images.githubusercontent.com/102833637/161351968-17dafa3d-d688-464b-9ed1-2f3bf17b4131.png)
+![image](https://user-images.githubusercontent.com/102833637/161351968-17dafa3d-d688-464b-9ed1-2f3bf17b4131.png)      
 Then "Add trigger" at the very bottom right    
 ![image](https://user-images.githubusercontent.com/102833637/161351990-baca61c2-8906-42ce-bf03-5932024b69dd.png)
 
