@@ -47,7 +47,7 @@ https://raw.githubusercontent.com/Troubled-Mind/Suspicious-Traders/main/scammerD
 
 Set the two variables on line 2 and 3 to whatever you named the labels in step 1.
 
-Make sure that it says "scammerDetection" at the top and click Run, then click Allow to let it access your emails to detect new scammers.
+Make sure that it says "scammerDetection" at the top (you might need to **save**) and click Run, then click Allow to let it access your emails to detect new scammers.
     
 ![image](https://user-images.githubusercontent.com/102833637/161351769-83a4f619-861a-4878-add8-9a7459707b14.png)
 
