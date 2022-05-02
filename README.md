@@ -5,6 +5,10 @@ Automatically label (and optionally response to) known scammers when they email 
 
 See the [Wiki](https://github.com/Troubled-Mind/Suspicious-Traders/wiki) for the reasons each email is on the list    
 
+## Disclaimer
+This list is sourced elsewhere and is just a mirror. I will not be removing people unless the main external list is updated.
+Any communications to me regarding why an email is on there/removal requests will be deleted.
+
 ## Setup Guide
 
 ## Step 1 - Creating Gmail Labels
