@@ -21,6 +21,7 @@ function scammerDetection() {
     fetchScammers()
     Logger.log(scammerArray)
   }
+
   // For each "thread" of messages which have that label on
   for (const thread of inboundThreads) {
     // Get all messages in that thread
@@ -60,4 +61,5 @@ function fetchScammers() {
   // Split the scammerList variable based on new lines
   // This means we can check if the emailer is in the scammer list!
   scammerArray = scammerList.split(/\r?\n/);
+  Logger.log(scammerArray)
 }
