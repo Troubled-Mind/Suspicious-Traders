@@ -64,8 +64,10 @@ Then "Add trigger" at the very bottom right
 ![image](https://user-images.githubusercontent.com/102833637/161351990-baca61c2-8906-42ce-bf03-5932024b69dd.png)
 
 
-Make sure it's set to "scammerDetection", "Time-driven", "Minutes timer", and "Every minute"    
+Make sure it's set to "scammerDetection", "Time-driven", "Minutes timer", and *"5 Minutes"*    
 ![image](https://user-images.githubusercontent.com/102833637/161352012-448fdcb8-23e3-4462-9239-b0e19427a5fa.png)
 
+
+* Note- Set to every 5 minutes instead of every minute if you get errors
 
 Click "Save" and you're done!
